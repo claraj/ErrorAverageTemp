@@ -8,8 +8,9 @@ import java.util.LinkedList;
  */
 public class DB {
 
+
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";        //Configure the driver needed
-    static final String DB_CONNECTION_URL = "jdbc:mysql://localhost:3306/temp";     //Connection string – where's the database?
+    static final String DB_CONNECTION_URL = "jdbc:mysql://localhost:3306/temp";   //TODO create a database called temp.
     static final String USER = "root";   //TODO replace with your username
     static final String PASSWORD = "itecitec";   //TODO replace with your password
 
